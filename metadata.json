@@ -1,0 +1,6 @@
+{
+  "name": "SolarShowroom - Premium Solar Mobile Experience",
+  "description": "Mobile-first Solar Showroom application with solar catalog, solar ROI calculator, site survey booking, instant PDF quotations, and customer tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
