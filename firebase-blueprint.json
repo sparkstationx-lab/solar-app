@@ -1,0 +1,61 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Registered customer details and address",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "maxLength": 100 },
+        "phone": { "type": "string", "maxLength": 20 },
+        "email": { "type": "string", "maxLength": 100 },
+        "city": { "type": "string", "maxLength": 50 },
+        "address": { "type": "string", "maxLength": 200 },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["name", "phone", "email"]
+    },
+    "Quotation": {
+      "title": "Quotation",
+      "description": "Generated solar installation quotations",
+      "type": "object",
+      "properties": {
+        "quotationNumber": { "type": "string", "maxLength": 30 },
+        "customerName": { "type": "string", "maxLength": 100 },
+        "customerPhone": { "type": "string", "maxLength": 20 },
+        "finalTotalINR": { "type": "number" },
+        "status": { "type": "string", "enum": ["Saved", "Accepted", "Survey Pending"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["quotationNumber", "customerName", "finalTotalINR"]
+    },
+    "SurveyBooking": {
+      "title": "SurveyBooking",
+      "description": "Customer rooftop site survey bookings",
+      "type": "object",
+      "properties": {
+        "referenceNumber": { "type": "string", "maxLength": 30 },
+        "customerName": { "type": "string", "maxLength": 100 },
+        "phone": { "type": "string", "maxLength": 20 },
+        "city": { "type": "string", "maxLength": 50 },
+        "preferredDate": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["referenceNumber", "customerName", "phone"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User customer profile"
+    },
+    "/users/{userId}/quotations/{quotationId}": {
+      "schema": "Quotation",
+      "description": "User saved quotations"
+    },
+    "/users/{userId}/bookings/{bookingId}": {
+      "schema": "SurveyBooking",
+      "description": "User survey bookings"
+    }
+  }
+}
