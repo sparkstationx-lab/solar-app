@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { ZipArchive } = require('archiver');
 
-const zipName = 'SolarShowroom_Android_Project.zip';
+const zipName = 'VizonSolar_Android_Project.zip';
 const targetPath = path.join(process.cwd(), zipName);
 
 console.log('Generating downloadable project archive...');
@@ -26,7 +26,7 @@ archive.on('error', (err) => {
 
 archive.pipe(output);
 
-// Glob files excluding node_modules, dist, .aistudio, and the zip file itself
+// Glob files excluding node_modules, dist, .aistudio, and zip files
 archive.glob('**/*', {
   cwd: process.cwd(),
   ignore: [
@@ -34,7 +34,7 @@ archive.glob('**/*', {
     'dist/**',
     '.aistudio/**',
     '.git/**',
-    'SolarShowroom_Android_Project.zip'
+    '*.zip'
   ]
 });
 

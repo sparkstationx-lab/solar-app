@@ -15,8 +15,8 @@ export const ExpoExportModal: React.FC<ExpoExportModalProps> = ({
 
   const appJsonCode = `{
   "expo": {
-    "name": "SolarShowroom",
-    "slug": "solar-showroom-mobile",
+    "name": "Vizon Solar",
+    "slug": "vizon-solar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,14 +28,14 @@ export const ExpoExportModal: React.FC<ExpoExportModalProps> = ({
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.solarshowroom.mobile"
+      "bundleIdentifier": "com.sparkstation.vizonsolar"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f172a"
       },
-      "package": "com.solarshowroom.mobile"
+      "package": "com.sparkstation.vizonsolar"
     },
     "plugins": ["expo-router"]
   }

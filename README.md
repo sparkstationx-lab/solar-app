@@ -1,8 +1,8 @@
-# SolarShowroom - Premium Rooftop Solar Mobile App
+# Vizon Solar - Premium Rooftop Solar Mobile App
 
 A complete, production-ready mobile application built for **Android and iOS** using **React Native with Expo**, **TypeScript**, and **Tailwind CSS**.
 
-SolarShowroom allows homeowners and commercial properties to calculate rooftop solar ROI, explore solar products (panels, inverters, batteries, kits), request site survey inspections, and generate instant official PDF quotations.
+Vizon Solar allows homeowners and commercial properties to calculate rooftop solar ROI, explore solar products (panels, inverters, batteries, kits), request site survey inspections, and generate instant official PDF quotations.
 
 ---
 
@@ -69,14 +69,14 @@ You can package the entire source code into a downloadable `.zip` file:
 ```bash
 npm run export:zip
 ```
-This generates `SolarShowroom_Android_Project.zip` in the root directory.
+This generates `VizonSolar_Android_Project.zip` in the root directory.
 
 ---
 
 ## 📁 Key File Structure
 
 ```
-├── app.json                  # Expo app configuration (Package: com.sparkstation.solarshowroom)
+├── app.json                  # Expo app configuration (Package: com.sparkstation.vizonsolar)
 ├── eas.json                  # EAS build profiles (Development, Preview APK, Production AAB)
 ├── firebase-blueprint.json   # Intermediate database schema representation
 ├── firestore.rules           # Security rules for Firestore collections

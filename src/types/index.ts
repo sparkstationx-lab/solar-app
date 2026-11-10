@@ -1,5 +1,5 @@
 /**
- * Types for Solar Showroom Mobile Application
+ * Types for Vizon Solar Mobile Application
  */
 
 export type ProductCategory = 'panels' | 'inverters' | 'batteries' | 'systems' | 'accessories';

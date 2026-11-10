@@ -233,7 +233,7 @@ export const INITIAL_PRODUCTS: SolarProduct[] = [
   {
     id: 'prod-s1',
     name: '3kW Complete Home Solar Power System',
-    brand: 'SolarShowroom Certified',
+    brand: 'Vizon Solar Certified',
     model: 'HOME-3KW-KIT',
     category: 'systems',
     priceINR: 165000,
@@ -268,7 +268,7 @@ export const INITIAL_PRODUCTS: SolarProduct[] = [
   {
     id: 'prod-s2',
     name: '5kW Villa Solar System with Battery Backup',
-    brand: 'SolarShowroom Certified',
+    brand: 'Vizon Solar Certified',
     model: 'VILLA-5KW-HYBRID',
     category: 'systems',
     priceINR: 345000,

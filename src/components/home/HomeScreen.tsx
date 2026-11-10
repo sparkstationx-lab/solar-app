@@ -211,7 +211,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       {/* Trust & Performance Metrics */}
       <div className="bg-slate-900 text-white rounded-3xl p-4 space-y-3">
         <h4 className="text-xs font-bold text-amber-400 uppercase tracking-wider text-center">
-          SolarShowroom Assurance
+          Vizon Solar Assurance
         </h4>
         <div className="grid grid-cols-3 gap-2 text-center divide-x divide-slate-800">
           <div className="space-y-0.5">

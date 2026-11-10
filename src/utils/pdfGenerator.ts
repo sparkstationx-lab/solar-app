@@ -27,7 +27,7 @@ export function generateQuotationPDF(quotation: Quotation): void {
   doc.setTextColor(255, 255, 255);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(20);
-  doc.text('SOLAR SHOWROOM', 30, 20);
+  doc.text('VIZON SOLAR', 30, 20);
 
   doc.setFontSize(9);
   doc.setFont('helvetica', 'normal');
@@ -217,7 +217,7 @@ export function generateQuotationPDF(quotation: Quotation): void {
   doc.setFont('helvetica', 'normal');
   doc.setTextColor(100, 116, 139);
   doc.text('1. Quotation is valid for 30 days from issue date. Prices subject to DISCOM policy changes.', 12, y + 5);
-  doc.text('2. Installation subject to rooftop structural feasibility assessment by SolarShowroom engineer.', 12, y + 9);
+  doc.text('2. Installation subject to rooftop structural feasibility assessment by Vizon Solar engineer.', 12, y + 9);
   doc.text('3. Government subsidy is disbursed directly to customer bank account post DISCOM net-metering setup.', 12, y + 13);
 
   // Digital Badge / Stamp
@@ -228,7 +228,7 @@ export function generateQuotationPDF(quotation: Quotation): void {
   doc.setFontSize(8);
   doc.setFont('helvetica', 'bold');
   doc.setTextColor(245, 158, 11);
-  doc.text('SolarShowroom India', 146, y + 4);
+  doc.text('Vizon Solar India', 146, y + 4);
   doc.setFontSize(7);
   doc.setFont('helvetica', 'normal');
   doc.setTextColor(100, 116, 139);
@@ -241,7 +241,7 @@ export function generateQuotationPDF(quotation: Quotation): void {
 
   doc.setFontSize(8);
   doc.setTextColor(148, 163, 184);
-  doc.text('SolarShowroom Mobile App • Official Solar Quotation Document • www.solarshowroom.app', 105, 285, { align: 'center' });
+  doc.text('Vizon Solar Mobile App • Official Solar Quotation Document • www.vizonsolar.app', 105, 285, { align: 'center' });
 
   // Save PDF
   doc.save(`SolarQuotation_${quotation.quotationNumber}.pdf`);

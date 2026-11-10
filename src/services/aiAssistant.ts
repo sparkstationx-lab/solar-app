@@ -47,13 +47,13 @@ function getFallbackResponse(query: string): string {
 
   if (q.includes('net meter') || q.includes('discom') || q.includes('grid')) {
     return `⚡ **Net Metering Process in India**:
-1. **Feasibility Approval**: SolarShowroom submits your rooftop feasibility report to your local DISCOM (e.g. MSEDCL, TATA Power, BSES, BESCOM).
+1. **Feasibility Approval**: Vizon Solar submits your rooftop feasibility report to your local DISCOM (e.g. MSEDCL, TATA Power, BSES, BESCOM).
 2. **Installation**: Certified team installs panels & bidirectional net-meter.
 3. **Synchronization**: DISCOM tests protection and replaces existing meter with net meter.
 4. **Billing**: Excess solar units exported to the grid adjust directly against your monthly night consumption!`;
   }
 
-  return `☀️ **Solar Showroom Smart Advice**:
+  return `☀️ **Vizon Solar Smart Advice**:
 For a standard Indian home consuming **₹ 4,000 - ₹ 5,000** monthly bill:
 • **Recommended Size**: 3.3 kW System (6 Mono PERC Panels)
 • **Rooftop Area Required**: ~300 sq. ft.

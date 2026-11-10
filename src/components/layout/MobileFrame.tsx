@@ -14,7 +14,7 @@ export const MobileFrame: React.FC<MobileFrameProps> = ({ children }) => {
       <div className="hidden sm:flex items-center justify-between w-full max-w-md mb-2 px-3 py-1.5 bg-slate-900/90 border border-slate-800 backdrop-blur-md rounded-2xl text-xs text-slate-300">
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="font-semibold text-slate-200">SolarShowroom Mobile App</span>
+          <span className="font-semibold text-slate-200">Vizon Solar Mobile App</span>
         </div>
         <button
           onClick={() => setIsFrameEnabled(!isFrameEnabled)}

@@ -156,7 +156,7 @@ export const QuotationBuilderScreen: React.FC<QuotationBuilderScreenProps> = ({
       gstAmountINR,
       finalTotalINR,
       status: 'Saved',
-      notes: 'Generated via SolarShowroom Mobile Application.'
+      notes: 'Generated via Vizon Solar Mobile Application.'
     };
   };
 

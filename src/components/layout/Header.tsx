@@ -27,7 +27,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <h1 className="text-sm font-black tracking-tight leading-none text-white flex items-center gap-1">
-              SOLAR<span className="text-amber-400">SHOWROOM</span>
+              VIZON<span className="text-amber-400">SOLAR</span>
             </h1>
             
             {/* City Selector */}

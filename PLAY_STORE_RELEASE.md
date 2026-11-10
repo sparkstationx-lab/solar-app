@@ -1,13 +1,13 @@
 # Google Play Store Release & Submission Guide
 
-This document provides a step-by-step checklist and configuration instructions for publishing **SolarShowroom** on the **Google Play Store**.
+This document provides a step-by-step checklist and configuration instructions for publishing **Vizon Solar** on the **Google Play Store**.
 
 ---
 
 ## 📱 Application Identity & Package Information
 
-- **App Name**: SolarShowroom - Rooftop Solar & ROI Calculator
-- **Android Package ID**: `com.sparkstation.solarshowroom`
+- **App Name**: Vizon Solar - Rooftop Solar & ROI Calculator
+- **Android Package ID**: `com.sparkstation.vizonsolar`
 - **Default Version**: `1.0.0`
 - **Default Version Code**: `1`
 - **Target OS**: Android 8.0 (API 26) up to Android 15+ (API 35+)
@@ -61,7 +61,7 @@ EAS will automatically manage keystores and release signing credentials in the c
 ### 1. Account & App Creation
 1. Log in to [Google Play Console](https://play.google.com/console).
 2. Click **Create app**.
-3. Set **App name**: `SolarShowroom - Rooftop Solar & ROI Calculator`
+3. Set **App name**: `Vizon Solar - Rooftop Solar & ROI Calculator`
 4. Select **Default language**: English (US) / English (India)
 5. Select **App or game**: App
 6. Select **Free or paid**: Free
@@ -74,7 +74,7 @@ EAS will automatically manage keystores and release signing credentials in the c
 > Estimate rooftop solar ROI, calculate savings, book site survey & get instant PDF quotes.
 
 #### **Full Description** (Max 4000 characters):
-> Power your home with zero electricity bills! SolarShowroom is the ultimate mobile application for exploring rooftop solar power systems, estimating financial returns, and booking certified engineering site surveys.
+> Power your home with zero electricity bills! Vizon Solar is the ultimate mobile application for exploring rooftop solar power systems, estimating financial returns, and booking certified engineering site surveys.
 >
 > ☀️ **Key Features**:
 > • **Solar ROI & Savings Calculator**: Input your monthly electricity bill to calculate recommended kW system size, panel count, annual savings, payback period, and 25-year cumulative return.
@@ -116,7 +116,7 @@ When filling out the **Data Safety** questionnaire in Google Play Console:
 Google Play Store requires a hosted Privacy Policy URL.
 Example URL structure: `https://your-domain.com/privacy-policy`
 
-Key privacy provisions included in SolarShowroom:
+Key privacy provisions included in Vizon Solar:
 - Customer contact details are used solely for generating solar quotations and booking site surveys.
 - Camera and photo permissions are requested runtime only when uploading rooftop photos.
 - No sensitive financial credentials or payment card details are stored locally or transmitted.
@@ -134,7 +134,7 @@ Key privacy provisions included in SolarShowroom:
 
 ## 💡 Summary of Deliverables
 
-- `app.json`: Configured with Android package `com.sparkstation.solarshowroom`.
+- `app.json`: Configured with Android package `com.sparkstation.vizonsolar`.
 - `eas.json`: Configured with `preview` (APK) and `production` (AAB) profiles.
 - `firestore.rules`: Configured with role-isolated security.
-- `SolarShowroom_Android_Project.zip`: Complete downloadable source code archive.
+- `VizonSolar_Android_Project.zip`: Complete downloadable source code archive.
